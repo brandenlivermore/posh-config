@@ -5,16 +5,6 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#9A348E",
-          "foreground": "#ffffff",
-          "leading_diamond": "\ue0b6",
-          "properties": {
-            "template": "{{ .UserName }} "
-          },
-          "style": "diamond",
-          "type": "session"
-        },
-        {
           "background": "#DA627D",
           "foreground": "#ffffff",
           "leading_diamond": "\ue0b6",
@@ -27,7 +17,7 @@
             "template": " {{ .Path }} ",
             "max_depth": 3
           },
-          "style": "powerline",
+          "style": "diamond",
           "type": "path"
         },
         {
@@ -55,13 +45,13 @@
         },
         {
           "background": "#33658A",
+          "powerline_symbol": "\ue0b0",
           "foreground": "#ffffff",
           "properties": {
             "template": " {{ .CurrentDate | date .Format }} ",
             "time_format": "3:04 PM"
           },
-          "style": "diamond",
-          "trailing_diamond": "\ue0b0",
+          "style": "powerline",
           "type": "time"
         }
       ],
