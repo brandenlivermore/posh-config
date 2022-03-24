@@ -5,6 +5,16 @@
       "alignment": "left",
       "segments": [
         {
+          "background": "#9A348E",
+          "foreground": "#ffffff",
+          "leading_diamond": "\ue0b6",
+          "properties": {
+            "template": "{{ .UserName }} "
+          },
+          "style": "diamond",
+          "type": "session"
+        },
+        {
           "background": "#DA627D",
           "foreground": "#ffffff",
           "leading_diamond": "\ue0b6",
@@ -17,7 +27,7 @@
             "template": " {{ .Path }} ",
             "max_depth": 3
           },
-          "style": "diamond",
+          "style": "powerline",
           "type": "path"
         },
         {
